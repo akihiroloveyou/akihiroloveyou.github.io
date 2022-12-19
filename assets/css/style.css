@@ -1,0 +1,510 @@
+body {
+    margin: 0;
+   font-family: 'Ubuntu', sans-serif;
+    background: url("../images/fon13.jpg") center no-repeat;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    background-size: cover;
+    
+}
+
+*,
+*:before
+*:after
+{
+    -webkit-box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+
+
+
+/* container */
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* intro */
+
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+background: url("../images/back2.jpg") center no-repeat;
+   -webkit-background-size: cover;
+    
+    
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 10 ;
+}
+
+.intro__title{
+    color: #fff;
+    font-size: 110px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1;
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
+
+
+.header {
+    width: 100%;
+    
+    padding-top: 30px;
+        
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav */
+
+
+.nav{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.naw__link {
+    display: inline-block;
+    vertical-align: none;
+    margin: 0 15px;
+    position: relative;
+    
+    color: #fff;
+    text-decoration: none;
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    
+    transition: color .2s linear;
+
+}
+
+.naw__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    
+    background-color: white;
+    opacity: 0;
+    
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.naw__link:hover{
+    color: white;
+}
+
+.naw__link:hover:after{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/* btn */
+
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+    
+    border: 3px solid #fff;
+    
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14;
+    font-weight: 700;
+    text-decoration: none;
+    
+    
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+/* section */
+
+
+.section{
+    padding: 80px 0;
+	
+}
+
+.section_foot{
+
+	margin: 1%;
+	
+	
+}
+
+.section__header{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto 40px;
+
+    text-align: center;
+    
+    margin-bottom: 40px;
+}
+
+
+.section__suptitle{
+    font-family: ;
+    font-size: 24px;
+    color: #333;
+}
+
+.section__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section__title:after{
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 30px auto;
+    
+    background-color: white;
+}
+
+.section__text{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.section_text{
+    font-size: 15px;
+    color: white;
+}
+
+
+.uslugi_txt{
+	
+}
+.uslugi1{
+	margin-left: 300px;
+	text-align: left;
+	
+}
+
+.uslugi2{
+	margin-left: 550px;
+}
+
+.uslugi3{
+	margin-left: 800px;
+}
+
+.uslugi4{
+	margin-right: 300px;
+	text-align: right;
+}
+
+
+
+
+
+
+
+/* about */
+
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.about__item{
+    width: 300px;
+    position: relative;
+    background-color: white;
+}
+
+.about__item:hover .about__img{
+    transform: translate3d(-10px, -10px,0);
+}
+
+.about__item:hover .about__img img{
+    opacity: .7;
+}
+
+.about__item:hover .about__text{
+    opacity: 1;
+}
+
+.about__img{
+    background: linear-gradient(to bottom,
+    #111111, #000000);   
+    transition: transform .2s linear;    
+}
+
+.about__img img{
+    display: block;
+    transition: opacity .0s linear;
+    opacity: .9;
+	
+}
+
+.about__text{
+    width: 100%;  
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity .2s linear;  
+}
+
+
+/* text-left_map */
+.text-left_map{
+	display: block;
+	margin-left: 30px;
+	height: 1px;
+}
+
+/* phone-png */
+.phone-png{
+	margin-left: -40px;
+	height: 1px;
+}
+
+/* metka-png */
+.metka-png{
+	margin-left: -30px;
+	height: 1px;
+}
+
+/* mail-png */
+.mail-png{
+	margin-left: -30px;
+	height: 1px;
+}
+
+
+/* map */
+.map{
+   	border: 1px solid white;
+	width: 960px;
+	height: 500px;
+	border: 1px soplid gray;
+	display: block;
+	margin: auto;
+	position: right;
+}
+
+.map_yandex{
+	display: block;
+	margin: auto;
+}	
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+.footer{
+background-color: #111;
+    padding-top: 5px;
+	height: 275px;
+
+
+}
+
+.footer__logo {
+   
+}
+
+.footer_cosial{
+    
+}
+
+.footer__social_content{
+   text-align: left;
+   font-size: 10px;
+    color: #fff;
+}
+
+.footer__social_content a{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    
+    
+}
+/*АБУБАС*/
+.text-block {
+margin-left:150px;
+color: white;
+line-height: 1cm;
+}
+
+.tablica {
+margin-left: 200px;
+color-text: #000000;
+
+}
+
+.otzivi{
+	margin: auto;
+}
+
+.wrapper {
+ 
+}
+.content {
+  
+}
